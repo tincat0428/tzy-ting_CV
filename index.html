@@ -1,0 +1,346 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>徐子婷</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/component.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+        integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Lilita+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/wow-animate.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="bg"></div>
+        <!-- Header -->
+        <header class="js-header">
+            <div class="container">
+                <div class="nav u-clearfix">
+                    <div class="social-bar">
+                        <a class="social-bar__icon" href="https://www.facebook.com/profile.php?id=100002340882238"
+                            target="_blank"><i class="fab fa-facebook-square"></i></a>
+                        <a class="social-bar__icon" href="https://www.behance.net/tzytinghsu6100" target="_blank"><i
+                                class="fab fa-behance"></i></a>
+                        <a class="social-bar__icon" href="https://github.com/tincat0428?tab=repositories" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                    <a href="#show-menu" class="menu">
+                        <div class="burger"></div>
+                        <div class="burger"></div>
+                        <div class="burger"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="show-menu" id="show-menu">
+                <div class="container">
+                    <div class="close">
+                        <a href="#!" class="close__icon"><i class="fas fa-times"></i></a>
+                    </div>
+                    <ul class="show-menu__menu">
+                        <li><a class="menu_item" href="#">ABOUT</a></li>
+                        <li><a class="menu_item" href="#skill">SKILLS</a></li>
+                        <li><a class="menu_item" href="#experience">EXPERIENCE</a></li>
+                        <li><a class="menu_item" href="#works">MY WORKS</a></li>
+                        <li><a class="menu_item" href="#contact">CONTACT ME</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <!-- Section -->
+        <!-- Jumbotron -->
+        <div class="container">
+            <div class="jumbotron">
+                <img src="images/parallax_graphic/tri-blue.svg" class="graphic_001" data-stellar-ratio="1.5">
+                <img src="images/parallax_graphic/cir-pink-sm.svg" class="graphic_002" data-stellar-ratio="1.5">
+                <h1 class="hello wow bounceInLeft">Hello! <br>I'm Tina</h1>
+                <a class="btn wow bounceInLeft" href="#contact">CONTACT</a>
+            </div>
+        </div>
+        <!-- Introduction -->
+        <div class="intro lean-bg-top">
+            <div class="intro__content">
+                <div class="intro__icon"><i class="fas fa-quote-right"></i></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, minus quos? Cum, in! Consectetur
+                    amet debitis iste expedita cum alias excepturi? Earum consequuntur ea neque. Vel odio tempore
+                    placeat pariatur?
+                </p>
+            </div>
+        </div>
+        <!-- Skill -->
+        <div class="skill lean-bg-bottom" id="skill">
+            <img class="graphic_005" data-stellar-ratio="1.5" src="images/parallax_graphic/cir-pink-md.svg" alt="">
+            <img class="graphic_006" data-stellar-ratio="1.5" src="images/parallax_graphic/dot-grey.svg" alt="">
+            <h2>擅長技術</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="skill-card u-mb-32 wow bounceInUp">
+                            <div class="skill-card__inner">
+                                <h4 class="skill-card__title">HTML5</h4>
+                                <p class="skill-card__text">
+                                    <li>對網頁效能、SEO有概念。</li>
+                                    <li>善用 Boostrap 格線系統。</li>
+                                </p>
+                            </div>
+                            <div class="skill-card__icon">
+                                <img class="skill-card__img" src="images/skill_icon/html-icon.png">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="skill-card u-mb-32  wow bounceInUp" data-wow-delay=".3s">
+                            <div class="skill-card__inner">
+                                <h4 class="skill-card__title">CSS3</h4>
+                                <p class="skill-card__text">
+                                    <ul>
+                                        <li>懂的規劃響應式網頁版型（RWD）。</li>
+                                        <li>懂加入前綴，修正不同瀏覽器版本的 CSS 相容問題。</li>
+                                        <li>善用 CSS 關鍵影格製作動畫，以及利用偽類別製作互動按鈕。</li>
+                                    </ul>
+                                </p>
+                            </div>
+                            <div class="skill-card__icon">
+                                <img class="skill-card__img" src="images/skill_icon/css-icon.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="skill-card u-mb-32  wow bounceInUp" data-wow-delay=".6s">
+                            <div class="skill-card__inner">
+                                <h4 class="skill-card__title">JavaScript / jQuery</h4>
+                                <p class="skill-card__text">
+                                    <ul>
+                                        <li>引入 jQuery，撰寫並建立互動動畫。</li>
+                                        <li>善用 jQuery Plugin 整合第三方插件動畫效果。</li>
+                                    </ul>
+                                </p>
+                            </div>
+                            <div class="skill-card__icon">
+                                <img class="skill-card__img" src="images/skill_icon/js-icon.png">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="skill-card u-mb-32  wow bounceInUp" data-wow-delay=".9s">
+                            <div class="skill-card__inner">
+                                <h4 class="skill-card__title">Photoshop</h4>
+                                <p class="skill-card__text">
+                                    <ul>
+                                        <li>熟悉 Photoshop 工具，拿到 PSD 檔即能切版。</li>
+                                        <li>閒暇時喜歡電腦繪圖。作品集：<a class="skill__a"
+                                                href="https://www.behance.net/tzytinghsu6100"
+                                                target="_blank">Behance</a> / <a class="skill__a"
+                                                href="https://www.instagram.com/shrimp._.ball/"
+                                                target="_blank">Instagram</a></li>
+                                    </ul>
+                                </p>
+                            </div>
+                            <div class="skill-card__icon">
+                                <img class="skill-card__img" src="images/skill_icon/ps-icon.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Experience -->
+        <div class="experience" id="experience">
+            <img class="graphic_007 u-xs-hidden" data-stellar-ratio="1.5"
+                src="images/parallax_graphic/cir-purple-lg.svg" alt="">
+            <img class="graphic_008" data-stellar-ratio="1.5" src="images/parallax_graphic/dot-grey.svg" alt="">
+            <img class="graphic_009" data-stellar-ratio="1.5" src="images/parallax_graphic/cir-pink-sm.svg" alt="">
+            <h2>工作經驗</h2>
+            <div class="container">
+                <div class="time-line"></div>
+                <div class="time-line-group">
+                    <div class="time-line-card__row">
+                        <div class="time-line-card wow bounceInUp">
+                            <h3 class="experience__title">網站行銷助理</h3>
+                            <h6><b>台和園藝有限公司</b>（2019 年 4 月～至今）</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quaerat corporis neque
+                                doloremque sint illum, similique fugit dicta architecto saepe nemo quam soluta
+                                sapiente necessitatibus aperiam quod alias. Accusantium, voluptatum.</p>
+                        </div>
+                    </div>
+                    <div class="time-line-card__row wow bounceInUp">
+                        <div class="time-line-card">
+                            <h3 class="experience__title">電商平台廣告 AE</h3>
+                            <h6><b>環球資源數據系統有限公司</b>（2018 年 4 月～ 2019 年 1 月）</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quaerat corporis neque
+                                doloremque sint illum, similique fugit dicta architecto saepe nemo quam soluta
+                                sapiente necessitatibus aperiam quod alias. Accusantium, voluptatum.</p>
+                        </div>
+                    </div>
+                    <div class="time-line-card__row wow bounceInUp">
+                        <div class="time-line-card">
+                            <h3 class="experience__title">學生時期</h3>
+                            <h6><b>國立中興大學生物系</b>（2013 年 9 月～ 畢業）</h6>
+                            <p>修課內容：</p>
+                            <p>微積分、生物化學、解剖學、細胞生理、植物生理、微生物學、基因改良技術等。</p>
+                            <p>打工/課外活動：
+                                <li>校內展覽商品組--印刷品及包裝設計</li>
+                                <li>交換學生--中國北京</li>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Work -->
+        <div class="work lean-bg-top" id="works">
+            <h2>前端設計作品</h2>
+            <div class="container">
+                <div class="work-list">
+                    <div class="work-item wow fadeInRight u425-mb-64">
+                        <div class="row">
+                            <div class="col-sm-6 col-sm-push-5">
+                                <a href="#">
+                                    <div class="img-box work-item__img">
+                                        <div class="img-inner img-inner--4-3">
+                                            <div class="img" style="background-image: url('images/works/my_web.jpg');">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-4 col-sm-pull-5 u-text-right">
+                                <h3 class="work-item__title">自我介紹網站<br class="u425-display--none">(即此頁面)</h3>
+                                <p><i>現在瀏覽的網站是我的作品之一，也可以用手機檢視喔！</i></p>
+                                <p><b>實用技術：html5、CSS3、jQuery、Boostrap 格線系統、js 第三方插件、響應式設計。</b></p>
+                                <a href="#" class="work-btn u425-text-left">點擊看作品</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-item wow fadeInLeft u425-mb-64">
+                        <div class="row">
+                            <a href="https://tincat0428.github.io/camera-animation/" target="_blank">
+                                <div class="col-sm-6">
+                                    <div class="img-box work-item__img">
+                                        <div class="img-inner img-inner--4-3">
+                                            <div class="img"
+                                                style="background-image: url('images/works/CSS動畫-模擬相機.png');">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="col-sm-4">
+                                <h3 class="work-item__title work-item__title--right">相機拍照囉！<br
+                                        class="u425-display--none">(網頁動畫)</h3>
+                                <p><i>竟然有一台相機出現在網頁上... 來拍張照片，看會拍出什麼東西吧！</i></p>
+                                <p><b>實用技術：CSS 關鍵影格效果。</b></p>
+
+                                <a href="https://tincat0428.github.io/camera-animation/" class="work-btn"
+                                    target="_blank">點擊看作品</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-item wow fadeInRight u425-mb-64">
+                        <div class="row">
+
+                            <a href="https://tincat0428.github.io/interaction-table/" target="_blank">
+                                <div class="col-sm-6 col-sm-push-5">
+                                    <div class="img-box work-item__img">
+                                        <div class="img-inner img-inner--4-3">
+                                            <div class="img" style="background-image: url('images/works/互動表單.png');">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="col-sm-4 col-sm-pull-5 u-text-right">
+
+                                <h3 class="work-item__title">拉麵建議小卡<br class="u425-display--none">(微互動表單)</h3>
+                                <p><i>我把拉麵裝飾成愛妻料理（給自己吃），可愛嗎？<br class="u768-display--none">寫寫問卷，說說你對這碗拉麵的建議。</i>
+                                </p>
+                                <p>
+                                    <b>實用技術：html 表單語法、jQuery。</b></p>
+                                <a href="https://tincat0428.github.io/interaction-table/" target="_blank"
+                                    class="work-btn">點擊看作品</a>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="work-item wow fadeInLeft u425-mb-32">
+                        <div class="row">
+                            <a href="https://tincat0428.github.io/demon-slayer/" target="_blank">
+                                <div class="col-sm-6">
+                                    <div class="img-box work-item__img">
+                                        <div class="img-inner img-inner--4-3">
+                                            <div class="img" style="background-image: url('images/works/燈箱與滑塊.png');">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="col-sm-4">
+                                <h3 class="work-item__title work-item__title--right">鬼滅之刃九柱相片簿<br>(滑塊與圖片燈箱)</h3>
+                                <p> <i>2019 必看動畫《鬼滅之刃》中，鬼殺隊九柱分別精通各種呼吸法。點擊你愛的角色，了解更多。</i> </p>
+                                <p><b>實用技術：jQuery 插件（Fancybox3、Owl-Carousel 2.3.4）應用與改寫。</b></p>
+                                <a href="https://tincat0428.github.io/demon-slayer/" target="_blank"
+                                    class="work-btn">點擊看作品</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact wow fadeInUp" id="contact" data-wow-delay="1s">
+        <h2>現在就聯絡我</h2>
+        <div class="container">
+            <div class="contact__info">
+                <div class="row">
+                    <div class="col-sm-6 u425-mb-32">
+                        <a href="tel:0917167300" class="btn-contact">
+                            <div class="phone">
+                                <i class="fas fa-mobile-alt contact__icon"></i> 0917-167-300
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-6">
+                        <a href="mailto:tincat0428@gmail.com" class="btn-contact">
+                            <div class="email">
+                                <i class="fas fa-envelope contact__icon"></i> tincat0428@gmail.com
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="copyright  wow fadeInUp" data-wow-delay=".8s">
+                <p>The C.V page made with HTML / CSS3 / JavaScript
+                    <br>Grid system made with Bootstrap3.4.1.</p>
+                <p>&copy;徐子婷 2020.01.01</p>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <!-- JS -->
+    <script src="js/jquery-2.0.2.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/customized.js"></script>
+</body>
+
+</html>

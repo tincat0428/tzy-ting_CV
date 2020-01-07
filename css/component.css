@@ -1,0 +1,141 @@
+/* ----------------------- */
+/* $Catalog
+-------------------------- */
+/*Catalog 
+ *Icon
+ *Buttom
+ *
+ *
+ */
+
+/* ----------------------- */
+/* $Icon
+-------------------------- */
+.social-bar__icon{
+    display: inline-block;
+    padding: 4px;
+}
+.social-bar__icon i{
+    color: #f4f4f4;
+    font-size: 24px;
+}
+
+/* ----------------------- */
+/* $Buttom
+-------------------------- */
+.btn{
+    min-width: 50px;
+    height: 48px;
+    line-height: 48px;
+
+    color: #f4f4f4;
+    font-weight: 600;
+    background-color: #e881a7;
+    border-radius: 30px;
+
+    display: inline-block;
+    padding: 0 64px;
+
+    transition: all .3s;
+}
+.btn:hover{
+    background-color: #c94676;
+}
+/* work-btn */
+.work-btn{
+    display: inline-block;
+    color: #e881a7;
+    font-size: 20px;
+    line-height: 48px;
+    height: 48px;
+    font-weight: 900;
+}
+.work-btn::before{
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #e881a7;
+    transition: all .2s linear;
+}
+.work-btn:hover::before{
+    width: 100%;
+}
+
+/* contact */
+.btn-contact {
+    width: 70%;
+    padding: 10px;
+    margin: 0 auto;
+    border: #fefefe solid 1px;
+    border-radius: 30px;
+    color: #fefefe;
+    font-size: 20px;
+    display: inline-block;
+    transition: all .2s linear;
+}
+.btn-contact:hover{
+    border: #e881a7 solid 1px;
+    background-color: #e881a7;
+}
+@media (max-width: 768px){
+    .btn-contact{
+        font-size: 14px;
+        vertical-align: middle;
+    }
+}
+/* ----------------------- */
+/* $Image
+-------------------------- */
+.img-box{
+    width: 100%;
+    position: relative;
+}
+.img-inner{
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+}
+.img-inner--4-3{
+    padding-top: 75%;
+}
+.img-inner .img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* ----------------------- */
+/* $Stellar
+-------------------------- */
+[class^="graphic_"]{
+    position: absolute;
+}
+.graphic_001{top: 0%;right: 5%;}
+.graphic_002{top: -10%;right: 40%;}
+.graphic_003{top: -120%;right: 5%;}
+.graphic_004{top: -30%;right: 20%;}
+.graphic_005{bottom: 20%;left: 5%;}
+.graphic_006{bottom: 50%;left: -5%;}
+.graphic_007{top: -30%;right: -5%;}
+.graphic_008{top: 10%;right: 10%;}
+.graphic_009{bottom: 50%;left: 5%;}
+.graphic_010{bottom: -10%;right: 20%;}
+.graphic_011{top: 5%;left: -5%;}
+.graphic_012{top: 12%;left: 5%;}
+.graphic_013{top: 35%;right: 10%;}
+.graphic_015{top: 57%;left: 5%;}
+.graphic_016{top: 71%;right: 10%;}
+.graphic_017{top: 70%;right: 5%;}
+.graphic_018{top: 84%;left: 5%;}
+.graphic_019{top: 90%;left: 20%;}
+.graphic_020{top: 0%;right: 20%;}
+.graphic_021{top: 30%;left: 10%;}
+.graphic_022{top: 35%;left: 10%;}
+
