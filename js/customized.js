@@ -12,12 +12,12 @@ $(document).ready(function(){
     })
 
     // wow-plugging
-    if(screen.width > 768){
+   
         new WOW().init();
-    }
+   
 
     // stellar plugging
-    if(screen.width > 768){
+   
         $(window).stellar();
-    }
+    
 })
